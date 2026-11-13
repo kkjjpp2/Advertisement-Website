@@ -1,6 +1,7 @@
 /* =====================================================
    Jae's Auto Media - clean editorial style, red / white / black
-   Photo slots: images/hero.jpg, car1.jpg, car2.jpg, car3.jpg, about.jpg, logo.jpg
+   Photo slots: images/home-hero.jpg, home-work.jpg, service-targeting.jpg, service-retargeting.jpg,
+   service-leads.jpg, service-google.jpg, about.jpg, logo.jpg
    Every photo slot has a dark red gradient fallback, so nothing looks broken without them.
    ===================================================== */
 
@@ -208,7 +209,7 @@ a { color: inherit; }
 .hero-photo {
     height: clamp(340px, 44vw, 560px);
     background:
-        url('images/hero.jpg') center / cover no-repeat,
+        url('images/home-hero.jpg') center / cover no-repeat,
         linear-gradient(120deg, #0a0203 0%, #4a0509 45%, #b3121c 100%);
 }
 
@@ -378,13 +379,13 @@ a { color: inherit; }
 
 .photo-work {
     margin-top: 56px;
-    background-image: url('images/car2.jpg'), linear-gradient(135deg, #0a0203, #4a0509 55%, #b3121c);
+    background-image: url('images/home-work.jpg'), linear-gradient(135deg, #0a0203, #4a0509 55%, #b3121c);
 }
 
-.photo-1 { background-image: url('images/car1.jpg'), linear-gradient(135deg, #0a0203, #4a0509 55%, #b3121c); }
-.photo-2 { background-image: url('images/service2.jpg'), url('images/car2.jpg'), linear-gradient(135deg, #1b0305, #6e0a10 55%, #d9232d); }
-.photo-3 { background-image: url('images/car3.jpg'), linear-gradient(135deg, #0a0203, #8e0e15 55%, #d9232d); }
-.photo-4 { background-image: url('images/car4.jpg'), linear-gradient(135deg, #1b0305, #4a0509 55%, #b3121c); }
+.photo-1 { background-image: url('images/service-targeting.jpg'), linear-gradient(135deg, #0a0203, #4a0509 55%, #b3121c); }
+.photo-2 { background-image: url('images/service-retargeting.jpg'), linear-gradient(135deg, #1b0305, #6e0a10 55%, #d9232d); }
+.photo-3 { background-image: url('images/service-leads.jpg'), linear-gradient(135deg, #0a0203, #8e0e15 55%, #d9232d); }
+.photo-4 { background-image: url('images/service-google.jpg'), linear-gradient(135deg, #1b0305, #4a0509 55%, #b3121c); }
 
 /* About photo: put your picture at images/about.jpg */
 .photo-about { background-image: url('images/about.jpg'), linear-gradient(135deg, #0a0203, #4a0509 55%, #b3121c); }
